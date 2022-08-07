@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(26, 25, 25);
+    }
+    .container {
+      margin: 50px auto 0px auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .container__image {
+      background-color: rgb(0, 234, 255);
+      width: 320px;
+      height: 220px;
+      text-align: center;
+      transition: all .2s ease-in-out;
+    }
+    .image {
+      width: 300px;
+      height: 200px;
+      margin-top: 10px;
+    }
+    .text {
+      color: rgb(0, 255, 42); font-size: 24px;text-align: center;
+    }
+    .container__image:hover {
+      transform: scale(1.1);
+    }
+
+    @media screen and (min-width: 800px) {
+      .container {
+        width: 60%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <p class="text">Frontend Mentor Challenges</p>
+  <div class="container">
+    <div class="container__image">
+      <a href="https://frontend-mentor-profile-card-component-nine.vercel.app/">
+        <img src="./vercel-1.png" alt="project image 1" class="image"/>
+      </a>
+    </div>
+    <div class="container__image">
+      <a href="https://frontend-mentor-stats-preview-card-sand.vercel.app/">
+        <img src="./vercel-2.png" alt="project image 1" class="image"/>
+      </a>
+    </div>
+    <div class="container__image">
+      <a href="https://nft-card-component-peach.vercel.app/">
+        <img src="./vercel-3.png" alt="project image 1" class="image"/>
+      </a>
+    </div>
+    <div class="container__image">
+      <a href="https://frontend-mentor-order-summary-opal.vercel.app/">
+        <img src="./vercel-4.png" alt="project image 1" class="image"/>
+      </a>
+    </div>
+  </div>
+  <p class="text">Check out my other projects on my github: <a href="https://www.github.com/wesley-lewis/" class="text">wesley-lewis</a></p>
+</body>
+</html>
